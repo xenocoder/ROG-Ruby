@@ -561,16 +561,16 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="7.185" y="22.971" size="1.27" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="C2" library="mb_caps-electro" package="080_035_1" value="220uF" x="28.2575" y="8.5725" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.3255" y="10.817" size="1.016" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="26.427" y="6.963" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="C3" library="mb_caps-box" package="072X035" value="47nF" x="9.8425" y="17.78" smashed="yes" rot="R90">
-<attribute name="VALUE" x="10.6332" y="19.373" size="1.016" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="8.2495" y="17.3007" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="C4" library="mb_caps-box" package="072X035" value="100nF" x="17.78" y="10.16" smashed="yes" rot="R180">
-<attribute name="VALUE" x="22.0632" y="12.0705" size="1.016" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="18.5768" y="8.2495" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="C5" library="mb_caps-box" package="072X035" value="47nF" x="25.4" y="17.4625" smashed="yes" rot="R270">
-<attribute name="VALUE" x="26.1907" y="19.0555" size="1.016" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="23.807" y="16.9832" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="D1" library="mb_diodes" package="LED3MM" value="LED3MM" x="17.78" y="2.54" smashed="yes" rot="R180"/>
 <element name="GND" library="mb_supply" package="SQUARE" value="GND(T)" x="5.08" y="2.54" smashed="yes">
@@ -622,10 +622,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="25.7175" y="3.81" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="SP-" library="mb_supply" package="ROUND" value="" x="22.86" y="2.54" smashed="yes">
-<attribute name="NAME" x="21.59" y="1.5875" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="NAME" x="24.13" y="4.7625" size="1.016" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="T" library="mb_supply" package="SQUARE" value="" x="30.48" y="2.54" smashed="yes">
-<attribute name="NAME" x="30.1625" y="4.1275" size="1.016" layer="25" ratio="12"/>
+<attribute name="NAME" x="30.7975" y="4.1275" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="T-SW" library="mb_supply" package="SQUARE" value="" x="27.94" y="2.54" smashed="yes">
 <attribute name="NAME" x="26.3525" y="4.1275" size="1.016" layer="25" ratio="12"/>

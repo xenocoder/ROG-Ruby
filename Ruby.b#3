@@ -110,7 +110,7 @@
 <text x="34.6075" y="7.9375" size="1.016" layer="25" font="vector" rot="R90">Xenocoder Pedals</text>
 <text x="13.6525" y="13.6525" size="0.8128" layer="25" font="vector" rot="R180">ROG Ruby Amp
 v1.0 - 01.2017</text>
-<hole x="17.78" y="26.67" drill="0.6"/>
+<hole x="17.78" y="26.67" drill="3.2"/>
 </plain>
 <libraries>
 <library name="mb_supply">
@@ -556,7 +556,7 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="+9V" library="mb_supply" package="SQUARE" value="+9V(T)" x="7.62" y="2.54" smashed="yes">
-<attribute name="NAME" x="6.6675" y="3.81" size="1.016" layer="25" ratio="12"/>
+<attribute name="NAME" x="10.16" y="1.27" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="C1" library="mb_caps-electro" package="063_025" value="100uF" x="4.445" y="18.415" smashed="yes" rot="R180">
 <attribute name="VALUE" x="7.185" y="22.971" size="1.27" layer="25" ratio="12" rot="R180"/>

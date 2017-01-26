@@ -556,7 +556,7 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="+9V" library="mb_supply" package="SQUARE" value="+9V(T)" x="7.62" y="2.54" smashed="yes">
-<attribute name="NAME" x="6.6675" y="3.81" size="1.016" layer="25" ratio="12"/>
+<attribute name="NAME" x="10.16" y="1.27" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="C1" library="mb_caps-electro" package="063_025" value="100uF" x="4.445" y="18.415" smashed="yes" rot="R180">
 <attribute name="VALUE" x="7.185" y="22.971" size="1.27" layer="25" ratio="12" rot="R180"/>
@@ -620,7 +620,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="34.29" y="4.7625" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="SP+" library="mb_supply" package="SQUARE" value="" x="25.4" y="2.54" smashed="yes">
-<attribute name="NAME" x="25.7175" y="3.81" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="NAME" x="26.9875" y="4.7625" size="1.016" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="SP-" library="mb_supply" package="ROUND" value="" x="22.86" y="2.54" smashed="yes">
 <attribute name="NAME" x="24.13" y="4.7625" size="1.016" layer="25" ratio="12" rot="R180"/>
@@ -629,7 +629,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="30.7975" y="4.1275" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="T-SW" library="mb_supply" package="SQUARE" value="" x="27.94" y="2.54" smashed="yes">
-<attribute name="NAME" x="26.3525" y="4.1275" size="1.016" layer="25" ratio="12"/>
+<attribute name="NAME" x="26.3525" y="0.3175" size="0.8128" layer="25" ratio="12"/>
 </element>
 </elements>
 <signals>

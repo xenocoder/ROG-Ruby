@@ -378,7 +378,7 @@ spacing: 3 holes
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
+<designrules name="oshpark-2layer">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -438,8 +438,8 @@ Please make sure your boards conform to these design rules.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="3mil"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -622,10 +622,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="25.7175" y="3.81" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="SP-" library="mb_supply" package="ROUND" value="" x="22.86" y="2.54" smashed="yes">
-<attribute name="NAME" x="21.59" y="1.5875" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="NAME" x="24.13" y="4.7625" size="1.016" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="T" library="mb_supply" package="SQUARE" value="" x="30.48" y="2.54" smashed="yes">
-<attribute name="NAME" x="30.1625" y="4.1275" size="1.016" layer="25" ratio="12"/>
+<attribute name="NAME" x="30.7975" y="4.1275" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="T-SW" library="mb_supply" package="SQUARE" value="" x="27.94" y="2.54" smashed="yes">
 <attribute name="NAME" x="26.3525" y="4.1275" size="1.016" layer="25" ratio="12"/>

@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -110,6 +110,7 @@
 <text x="34.6075" y="7.9375" size="1.016" layer="25" font="vector" rot="R90">Xenocoder Pedals</text>
 <text x="13.6525" y="13.6525" size="0.8128" layer="25" font="vector" rot="R180">ROG Ruby Amp
 v1.0 - 01.2017</text>
+<hole x="17.78" y="26.67" drill="3.2"/>
 </plain>
 <libraries>
 <library name="mb_supply">
@@ -697,16 +698,17 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$4">
 <contactref element="VOL" pad="3"/>
 <contactref element="C3" pad="2"/>
-<wire x1="9.8425" y1="20.32" x2="9.8425" y2="21.2725" width="0.6096" layer="1"/>
-<wire x1="9.8425" y1="21.2725" x2="13.97" y2="25.4" width="0.6096" layer="1"/>
+<wire x1="9.8425" y1="20.32" x2="9.8425" y2="21.2725" width="0.6096" layer="16"/>
+<wire x1="9.8425" y1="21.2725" x2="13.97" y2="25.4" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC1" pad="2"/>
 <contactref element="VOL" pad="2"/>
-<wire x1="19.05" y1="21.59" x2="19.05" y2="24.765" width="0.6096" layer="1"/>
-<wire x1="19.05" y1="24.765" x2="16.1925" y2="27.6225" width="0.6096" layer="1"/>
-<wire x1="16.1925" y1="27.6225" x2="11.1125" y2="27.6225" width="0.6096" layer="1"/>
-<wire x1="11.1125" y1="27.6225" x2="8.89" y2="25.4" width="0.6096" layer="1"/>
+<wire x1="19.05" y1="21.59" x2="19.05" y2="20.32" width="0.6096" layer="1"/>
+<wire x1="19.05" y1="20.32" x2="18.0975" y2="19.3675" width="0.6096" layer="1"/>
+<wire x1="18.0975" y1="19.3675" x2="13.97" y2="19.3675" width="0.6096" layer="1"/>
+<wire x1="13.97" y1="19.3675" x2="8.89" y2="24.4475" width="0.6096" layer="1"/>
+<wire x1="8.89" y1="24.4475" x2="8.89" y2="25.4" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R3" pad="2"/>

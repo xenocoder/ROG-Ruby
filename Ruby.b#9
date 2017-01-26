@@ -107,6 +107,9 @@
 <wire x1="35.23" y1="0" x2="35.23" y2="29.2" width="0" layer="20"/>
 <wire x1="35.23" y1="29.2" x2="0" y2="29.2" width="0" layer="20"/>
 <wire x1="0" y1="29.2" x2="0" y2="0" width="0" layer="20"/>
+<text x="34.6075" y="7.9375" size="1.016" layer="25" font="vector" rot="R90">Xenocoder Pedals</text>
+<text x="13.6525" y="13.6525" size="0.8128" layer="25" font="vector" rot="R180">ROG Ruby Amp
+v1.0 - 01.2017</text>
 </plain>
 <libraries>
 <library name="mb_supply">
@@ -551,66 +554,66 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="+9V1" library="mb_supply" package="SQUARE" value="+9V(T)" x="7.62" y="2.54" smashed="yes">
-<attribute name="NAME" x="8.89" y="1.905" size="1.27" layer="25" ratio="12"/>
+<element name="+9V" library="mb_supply" package="SQUARE" value="+9V(T)" x="7.62" y="2.54" smashed="yes">
+<attribute name="NAME" x="6.6675" y="3.81" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="C1" library="mb_caps-electro" package="063_025" value="100uF" x="4.445" y="18.415" smashed="yes" rot="R180">
-<attribute name="VALUE" x="7.185" y="22.971" size="1.27" layer="27" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="7.185" y="22.971" size="1.27" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="C2" library="mb_caps-electro" package="080_035_1" value="220uF" x="28.2575" y="8.5725" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.3255" y="10.817" size="1.016" layer="27" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="25.3255" y="10.817" size="1.016" layer="25" ratio="12" rot="R270"/>
 </element>
 <element name="C3" library="mb_caps-box" package="072X035" value="47nF" x="9.8425" y="17.78" smashed="yes" rot="R90">
-<attribute name="VALUE" x="10.6332" y="19.373" size="1.016" layer="27" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="10.6332" y="19.373" size="1.016" layer="25" ratio="12" rot="R270"/>
 </element>
 <element name="C4" library="mb_caps-box" package="072X035" value="100nF" x="17.78" y="10.16" smashed="yes" rot="R180">
-<attribute name="VALUE" x="22.0632" y="12.0705" size="1.016" layer="27" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="22.0632" y="12.0705" size="1.016" layer="25" ratio="12" rot="R270"/>
 </element>
 <element name="C5" library="mb_caps-box" package="072X035" value="47nF" x="25.4" y="17.4625" smashed="yes" rot="R270">
-<attribute name="VALUE" x="26.1907" y="19.0555" size="1.016" layer="27" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="26.1907" y="19.0555" size="1.016" layer="25" ratio="12" rot="R270"/>
 </element>
 <element name="D1" library="mb_diodes" package="LED3MM" value="LED3MM" x="17.78" y="2.54" smashed="yes" rot="R180"/>
-<element name="GND1" library="mb_supply" package="SQUARE" value="GND(T)" x="5.08" y="2.54" smashed="yes">
-<attribute name="NAME" x="6.35" y="1.905" size="1.016" layer="25" ratio="12"/>
+<element name="GND" library="mb_supply" package="SQUARE" value="GND(T)" x="5.08" y="2.54" smashed="yes">
+<attribute name="NAME" x="3.4925" y="3.81" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="IC1" library="mb_ics" package="DIL08" value="LM386" x="17.78" y="17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.431" y="16.891" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="20.066" y="19.685" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="20.066" y="19.685" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="IN" library="mb_supply" package="SQUARE" value="IN(T)" x="2.54" y="2.54" smashed="yes">
-<attribute name="NAME" x="3.81" y="1.905" size="1.016" layer="25" ratio="12"/>
+<attribute name="NAME" x="1.5875" y="3.81" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="LED" library="mb_supply" package="SQUARE" value="" x="11.43" y="2.54" smashed="yes">
-<attribute name="NAME" x="12.7" y="1.905" size="1.016" layer="25" ratio="12"/>
+<attribute name="NAME" x="13.97" y="1.27" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="VOL" library="mb_pots" package="16MM" value="B10k" x="8.89" y="25.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.255" y="28.575" size="1.27" layer="21" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="13.6525" y="28.575" size="1.27" layer="27" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="13.6525" y="28.575" size="1.27" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="GAIN" library="mb_pots" package="16MM" value="B1K" x="26.67" y="25.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.3525" y="28.575" size="1.27" layer="21" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="31.115" y="28.575" size="1.27" layer="27" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="31.115" y="28.575" size="1.27" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="Q1" library="mb_trans" package="TO92-" value="J201" x="8.89" y="6.35" smashed="yes" rot="R180">
-<attribute name="VALUE" x="13.589" y="8.89" size="1.016" layer="27" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="13.589" y="8.89" size="1.016" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="R" library="mb_supply" package="SQUARE" value="" x="33.02" y="2.54" smashed="yes">
 <attribute name="NAME" x="34.29" y="1.905" size="1.016" layer="25" ratio="12"/>
 </element>
 <element name="R1" library="mb_resistors" package="R0207/3" value="1M5" x="2.54" y="10.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="1.905" y="11.7475" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="1.905" y="11.7475" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R2" library="mb_resistors" package="R0207/3" value="3k9" x="8.89" y="10.16" smashed="yes">
-<attribute name="VALUE" x="7.62" y="9.525" size="1.27" layer="27" font="vector" ratio="12"/>
+<attribute name="VALUE" x="7.62" y="9.525" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
 <element name="R3" library="mb_resistors" package="R0207/3" value="10ohm" x="29.21" y="17.78" smashed="yes" rot="R270">
-<attribute name="VALUE" x="28.575" y="20.32" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="28.575" y="20.32" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R4" library="mb_resistors" package="R0207/3" value="4k7" x="19.05" y="6.35" smashed="yes">
-<attribute name="VALUE" x="17.78" y="5.715" size="1.27" layer="27" font="vector" ratio="12"/>
+<attribute name="VALUE" x="17.78" y="5.715" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
 <element name="R5" library="mb_resistors" package="R0207/3" value="10ohm" x="32.0675" y="17.78" smashed="yes" rot="R270">
-<attribute name="VALUE" x="31.4325" y="20.32" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="31.4325" y="20.32" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="S" library="mb_supply" package="ROUND" value="" x="33.02" y="5.08" smashed="yes">
 <attribute name="NAME" x="34.29" y="4.7625" size="1.016" layer="25" ratio="12"/>
@@ -630,7 +633,7 @@ Please make sure your boards conform to these design rules.</description>
 </elements>
 <signals>
 <signal name="+9V">
-<contactref element="+9V1" pad="1"/>
+<contactref element="+9V" pad="1"/>
 <contactref element="R4" pad="1"/>
 <contactref element="C1" pad="+"/>
 <contactref element="Q1" pad="3"/>
@@ -657,7 +660,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="-"/>
-<contactref element="GND1" pad="1"/>
+<contactref element="GND" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="R2" pad="1"/>
@@ -765,4 +768,10 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
